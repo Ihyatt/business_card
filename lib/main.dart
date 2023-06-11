@@ -14,34 +14,22 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: <Widget>[
-              Container(
-                color: Colors.red,
-                width: 100,
+          child: Column(
+            children: <Widget> [
+              CircleAvatar(
+                radius: 50.0,
+                backgroundImage: AssetImage('images/luna.png'),
               ),
-              Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Container(
-                    color: Colors.yellow,
-                    width: 100,
-                    height: 100,
-                  ),
-                  Container(
-                    color: Colors.yellowAccent,
-                    width: 100,
-                    height: 100,
-                  ),
-                ],
+              Text(
+                'Inas Hyatt',
+                style: TextStyle(
+                  fontSize: 40,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                )
               ),
-              Container(
-                color: Colors.blue,
-                width: 100,
-              ),
-            ],
-          ),
+            ]
+          )
         ),
       ),
     );
