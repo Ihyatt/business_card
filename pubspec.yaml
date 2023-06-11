@@ -31,3 +31,7 @@ flutter:
       fonts:
         - asset: fonts/TiltPrism-Regular.ttf
 
+    - family: SourceSans3 Light
+      fonts:
+        - asset: fonts/SourceSans3-Light.ttf
+
