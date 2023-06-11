@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
               Text(
                 'Inas Hyatt',
                 style: TextStyle(
+                  fontFamily: 'TiltPrism',
                   fontSize: 40,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,

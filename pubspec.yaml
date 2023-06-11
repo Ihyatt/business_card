@@ -26,3 +26,8 @@ flutter:
   assets:
     - images/
 
+  fonts:
+    - family: TiltPrism
+      fonts:
+        - asset: fonts/TiltPrism-Regular.ttf
+
